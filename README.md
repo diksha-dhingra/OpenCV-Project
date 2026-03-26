@@ -30,21 +30,6 @@ python main.py
 
 ---
 
-### 🔜 3. Object Detection *(Coming Soon)*
-> Detect everyday objects using a pre-trained model (YOLO / MobileNet).
-
----
-
-### 🔜 4. Face Recognition *(Coming Soon)*
-> Recognize and label known faces from webcam feed.
-
----
-
-### 🔜 5. Gesture Control *(Coming Soon)*
-> Control your PC using hand gestures (volume, scroll, etc.)
-
----
-
 ## 🛠️ General Setup
 
 Make sure Python is installed, then for any project:
@@ -81,7 +66,6 @@ opencv-projects/
 |-------------|--------------------------|
 | Python 3.x  | Core language            |
 | OpenCV      | Video & image processing |
-| MediaPipe   | Face & hand landmarks    |
 | pygame      | Audio/alarm              |
 | NumPy       | Math & array operations  |
 
