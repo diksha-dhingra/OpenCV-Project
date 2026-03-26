@@ -21,7 +21,7 @@ python main.py
 - Auto alarm using pygame (no audio file needed)
 - Visual countdown bar on screen
 
-**Libraries:** `opencv-python`, `mediapipe`, `pygame`, `numpy`
+**Libraries:** `opencv-python`, `pygame`, `numpy`
 
 ---
 
