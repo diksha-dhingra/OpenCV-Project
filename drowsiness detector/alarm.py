@@ -4,7 +4,7 @@
 import pygame
 import numpy as np
 
-pygame.mixer.init(frequency=44100, size=-16, channels=1, buffer=512)
+pygame.mixer.init(frequency=44100, size=-16, channels=2, buffer=512)
 
 
 def generate_beep(frequency=1000, duration=1.5, volume=0.9):
@@ -19,7 +19,7 @@ def generate_beep(frequency=1000, duration=1.5, volume=0.9):
 
     t    = np.linspace(0, duration, n_samples, endpoint=False)
     wave = (np.sin(2 * np.pi * frequency * t) * 32767 * volume).astype(np.int16)
-
+    wave = np.column_stack([wave, wave])
     return pygame.sndarray.make_sound(wave)
 
 
